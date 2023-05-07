@@ -8,5 +8,4 @@ plt.scatter(x=dataframe['Life Expectancy'], y=dataframe['Adult Mortality'], c=da
 plt.title("Life Expectancy vs. Adult Mortality")
 plt.xlabel("Life Expectancy (years)")
 plt.ylabel("Adult Mortality (per 1,000 persons)")
-plt.grid()
 plt.show()

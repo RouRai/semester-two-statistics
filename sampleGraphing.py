@@ -23,6 +23,5 @@ plt.plot(subset['Life Expectancy'], predicted, 'r', label='LSRL for Life Expecta
 plt.title("Life Expectancy vs. Adult Mortality")
 plt.xlabel("Life Expectancy (years)")
 plt.ylabel("Adult Mortality (per 1,000 persons)")
-plt.grid()
 leg=plt.legend(loc='upper right')
 plt.show()

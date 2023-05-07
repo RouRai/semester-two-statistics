@@ -19,7 +19,6 @@ predicted = linear_regression_line(subset['Life Expectancy'])
 residuals = subset['Adult Mortality'] - predicted
 
 plt.scatter(subset['Life Expectancy'], residuals, c=subset['Life Expectancy'])
-plt.grid()
 plt.title("Scatter-plot of Residuals")
 plt.xlabel("Life Expectancy (years)")
 plt.ylabel("Residual (Observed per 1000 persons - Expected per 1000 persons)")
