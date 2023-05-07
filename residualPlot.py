@@ -18,10 +18,9 @@ subset['Adult Mortality'] = [114, 293, 16, 259, 312, 227, 195, 13, 148, 413, 146
 predicted = linear_regression_line(subset['Life Expectancy'])
 residuals = subset['Adult Mortality'] - predicted
 
-plt.hist(residuals, bins=[-225, -150, -75, 0, 75, 150])
-plt.xlim(-200, 150)
-plt.title("Histogram of Residuals")
-plt.xlabel("Residual (Observed per 1000 persons - Expected per 1000 persons)")
-plt.ylabel("Frequency of Residuals")
+plt.scatter(subset['Life Expectancy'], residuals)
 plt.grid()
+plt.title("Scatter-plot of Residuals")
+plt.xlabel("Life Expectancy (years)")
+plt.ylabel("Residual (Observed per 1000 persons - Expected per 1000 persons)")
 plt.show()
