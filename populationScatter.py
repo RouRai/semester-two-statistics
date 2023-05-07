@@ -9,3 +9,5 @@ plt.title("Life Expectancy vs. Adult Mortality")
 plt.xlabel("Life Expectancy (years)")
 plt.ylabel("Adult Mortality (per 100,000)")
 plt.show()
+
+# hahah ahahaha
