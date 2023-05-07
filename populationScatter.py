@@ -7,5 +7,5 @@ dataframe = pd.DataFrame(dataframe, columns=['Life Expectancy', 'Adult Mortality
 plt.scatter(x=dataframe['Life Expectancy'], y=dataframe['Adult Mortality'], c=dataframe['Life Expectancy'])
 plt.title("Life Expectancy vs. Adult Mortality")
 plt.xlabel("Life Expectancy (years)")
-plt.ylabel("Adult Mortality (per 100,000)")
+plt.ylabel("Adult Mortality (per 1,000 persons)")
 plt.show()
