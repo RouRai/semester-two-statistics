@@ -18,7 +18,7 @@ subset['Adult Mortality'] = [114, 293, 16, 259, 312, 227, 195, 13, 148, 413, 146
 predicted = linear_regression_line(subset['Life Expectancy'])
 residuals = subset['Adult Mortality'] - predicted
 
-plt.scatter(subset['Life Expectancy'], residuals)
+plt.scatter(subset['Life Expectancy'], residuals, c=subset['Life Expectancy'])
 plt.grid()
 plt.title("Scatter-plot of Residuals")
 plt.xlabel("Life Expectancy (years)")
